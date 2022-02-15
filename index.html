@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/c41c3e6546.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <h1 class="logo">
+        <img
+          src="./imgs/original-trombones-logo.png"
+          alt="Original Trombones"
+          id="header-img"
+        />
+      </h1>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#hiw" class="nav-link">How It Works</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="landing">
+        <div class="form-container">
+          <p>Handcrafted, home-made masterpieces</p>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="post"
+          >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your Email Address"
+              required
+            />
+            <input type="submit" id="submit" value="Get Started" />
+          </form>
+        </div>
+        <img src="./imgs/trombone-player.png" alt="Trombone Player Icon" />
+      </section>
+      <section id="features">
+        <h2>Features</h2>
+        <div class="container">
+          <div class="feat">
+            <i class="fa-solid fa-shapes fa-3x"></i>
+            <h3>Premium Materials</h3>
+            <p>
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </div>
+          <div class="feat">
+            <i class="fas fa-shipping-fast fa-3x"></i>
+            <h3>Fast Shipping</h3>
+            <p>
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+          <div class="feat">
+            <i class="fa-solid fa-clipboard-check fa-3x"></i>
+            <h3>Quality Assurance</h3>
+            <p>
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="hiw">
+        <h2>How It Works</h2>
+        <div class="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/31GGFd-W9bM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            id="video"
+          ></iframe>
+        </div>
+      </section>
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="container">
+          <div class="plan">
+            <h3>Tenor Trombone</h3>
+            <div class="price">600$</div>
+            <ul class="specs">
+              <li>Key: Bb</li>
+              <li>Bore: 12.7 mm</li>
+              <li>bell: Yellow Brass 204.4 mm</li>
+              <li>Outer slide: Nickel silver</li>
+              <li>Inner slide: Nickel silver</li>
+            </ul>
+            <div class="cta-btn"><button>Order Now</button></div>
+          </div>
+          <div class="plan">
+            <h3>Bass Trombone</h3>
+            <div class="price">900$</div>
+            <ul class="specs">
+              <li>Key: Bb/F/Gb/D</li>
+              <li>Bore: 14.3mm</li>
+              <li>Bell: Yellow Brass 241mm</li>
+              <li>Outer slide: Nickel silver</li>
+              <li>Inner slide: Nickel silver</li>
+            </ul>
+            <div class="cta-btn"><button>Order Now</button></div>
+          </div>
+          <div class="plan">
+            <h3>Valve Trombone</h3>
+            <div class="price">1200$</div>
+            <ul class="specs">
+              <li>Key: C</li>
+              <li>Bore: 12.30mm</li>
+              <li>Bell: Yellow Brass 203mm</li>
+              <li>Outer slide: Nickel silver</li>
+              <li>Inner slide: Nickel silver</li>
+            </ul>
+            <div class="cta-btn"><button>Order Now</button></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <ul class="links">
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Contact</li>
+      </ul>
+      <div class="copyright">Copyright &copy; 2022, Original Trombones</div>
+    </footer>
+  </body>
+</html>
