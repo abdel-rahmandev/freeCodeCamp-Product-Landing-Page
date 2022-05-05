@@ -32,6 +32,7 @@ header {
 }
 .logo img {
   width: 300px;
+  max-width: 100%;
 }
 nav ul {
   display: flex;
